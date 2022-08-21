@@ -1,0 +1,231 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+header{
+    background: #2A2A2A;
+    padding-bottom: 100px;
+}
+
+header nav{
+    display: flex;
+    justify-content: space-around;
+    padding: 36px 0;
+}
+
+header nav ul{
+    display: flex;
+    justify-content: space-between;
+    width: 600px;
+}
+
+header nav ul li a{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #FFFFFF;
+}
+
+header nav ul li a:hover{
+    color: #FF5B56;
+}
+
+header h1{
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 60px;
+    line-height: 72px;
+    color: #D9D9D9;
+    text-align: center;
+}
+
+header h1 span{
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 60px;
+    line-height: 72px;
+    color: #D9D9D9;
+}
+
+header p{
+    font-family: 'Roboto';
+    font-style: italic;
+    font-weight: 300;
+    font-size: 40px;
+    line-height: 47px;
+    text-align: center;
+    color: #D9D9D9;
+}
+
+header button{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+    background: #FF5B56;
+    border-radius: 6px;
+    padding: 13px 37px;
+    display: block;
+    margin: 50px auto 100px;
+}
+
+section{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin: 85px 0 auto;
+}
+
+section .text h3{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #616161;
+}
+
+section .text p{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: #616161;
+    width: 228px;
+    height: 64px;
+}
+
+main{
+    text-align: center;
+    margin: auto;
+}
+
+main .box h1{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 36px;
+    color: #616161;
+    margin: 120px 0 0 10px;
+}
+
+main .box h4{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 24px;
+    color: #616161;
+    margin-top: 10px;
+}
+
+main .box button{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 12px;
+    line-height: 14px;
+    color: #FFFFFF;
+    margin-top: 56px;
+    margin-bottom: 30px;
+}
+
+main .box button:hover{
+    color: #FF5B56;
+}
+
+main .lay{
+    flex-direction: column;
+}
+
+footer{
+    margin-top: 70px;
+    margin: auto;
+    text-align: center;
+    background: #313131;
+    margin-top: 70px;
+}
+
+footer .fifa h1{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 36px;
+    color: #E0E0E0;
+    margin-bottom: 11px;
+    padding-top: 44px;
+}
+
+footer .fifa h4{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 24px;
+    color: #616161;
+    margin-bottom: 17px;
+}
+
+footer .pess{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin: auto;
+    width: 500px;
+    margin-bottom: 30px;
+}
+
+footer .dream{
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    margin-top: 25px;
+}
+
+footer .dream .bir{
+    background: #F49E51;
+}
+
+footer .dream .ikki{
+    background: #6976AB;
+}
+
+footer .dream .uch{
+    background: #61BEDF;
+}
+
+footer .dream .tort{
+    background: #EB90B1;
+}
+
+footer .dream .besh{
+    background: #FFFFFF;
+}
+
+footer h2{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    color: #B5B5B5;
+    margin-top: 80px;
+    padding-bottom: 30px;
+}
+
+
